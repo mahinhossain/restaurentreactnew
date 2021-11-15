@@ -1,7 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import Maincomponents from "./compontents/Body/Maincomponents";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Switch, Route, Link } from "react-router-dom";
 import About from "./compontents/About";
 import Contact from "./compontents//Contact/Contact";
 import Nav from "./compontents/Header/Nav";
