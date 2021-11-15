@@ -11,26 +11,24 @@ import ContactInfo from "./compontents/Contact/ContactInfo";
 
 function App() {
   return (
-    <div>
-      <Router>
-        <Nav />
-        <Switch>
-          <Route exact path="/">
-            <Maincomponents />
-          </Route>
-          <Route path="/contact">
-            <Contact />
-          </Route>
-          <Route path="/about">
-            <Tst />
-          </Route>
-          <Route path="/userinfo">
-            <ContactInfo />
-          </Route>
-        </Switch>
-      </Router>
+    <Router>
+      <Nav />
+      <Switch>
+        <Route exact path="/">
+          <Maincomponents />
+        </Route>
+        <Route path="/contact">
+          <Contact />
+        </Route>
+        <Route path="/about">
+          <Tst />
+        </Route>
+        <Route path="/userinfo">
+          <ContactInfo />
+        </Route>
+      </Switch>
       <Footer />
-    </div>
+    </Router>
   );
 }
 
