@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.shadow {
+  box-shadow: 0px 7px 5px #888888;
+  z-index: 999;
+}
+.shadowH {
+  z-index: 9999;
+  height: 247px;
+  background: black;
+  -webkit-box-shadow: 7px 7px 2px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 7px 7px 2px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 7px 7px 2px 0px rgba(50, 50, 50, 0.75);
+}
+.hide {
+  overflow: hidden;
+
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
