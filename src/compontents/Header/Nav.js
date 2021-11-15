@@ -12,7 +12,7 @@ export default function Nav() {
         alt="Card image cap"
         style={{ height: 50, width: 50, borderRadius: 25 }}
       />
-      <h5 className="text-light ml-2"> The Restaurant </h5>
+      <h5 className="text-light ml-2 text-success "> The Restaurant </h5>
 
       <button
         class="navbar-toggler"
